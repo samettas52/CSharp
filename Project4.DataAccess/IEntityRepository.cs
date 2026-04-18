@@ -14,7 +14,7 @@ namespace Project4.DataAccess
     {
         //if our interfaces using the same thing then we create a entityrepository . Thats for the stoping code repetitions .
         List<T> GetAll();
-        List<T> GetById(int id);
+        T GetById(int id);
         void Add(T entity);
         void Update(T entity);
         void Delete(T entity);
